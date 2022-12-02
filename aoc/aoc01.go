@@ -28,7 +28,7 @@ func elfCaloriesTop3Sum() {
 	for _, n := range totalCalories[0:3] {
 		sum = sum + n
 	}
-	
+
 	log.Printf("Top 3 sum: %v", sum)
 }
 
