@@ -7,5 +7,5 @@ go_binary(
         "aoc02.go",
         "main.go",
     ],
-    data = ["//resources"],
+    data = ["//resources:resources"],
 )
