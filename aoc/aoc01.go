@@ -1,16 +1,13 @@
 package main
 
 import (
-	"bufio"
 	"log"
-	"os"
 	"sort"
 	"strconv"
 )
 
 func elfCaloriesTop3Sum() {
-	file, _ := os.Open("resources/aoc_01_1.txt")
-	scanner := bufio.NewScanner(file)
+	scanner := scanner("resources/aoc_01.txt")
 	var totalCalories []int
 	cur := 0
 	for scanner.Scan() {
@@ -33,8 +30,7 @@ func elfCaloriesTop3Sum() {
 }
 
 func elfMostCalories() {
-	file, _ := os.Open("resources/aoc_01_1.txt")
-	scanner := bufio.NewScanner(file)
+	scanner := scanner("resources/aoc_01.txt")
 	max := 0
 	cur := 0
 	for scanner.Scan() {

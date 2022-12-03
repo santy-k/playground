@@ -1,5 +1,5 @@
 filegroup(
     name = "resources",
-    srcs = ["aoc_01_1.txt",  "aoc_02.txt"],
+   srcs = glob(["*.txt"]),
     visibility = ["//visibility:public"],
 )

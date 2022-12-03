@@ -1,9 +1,7 @@
 package main
 
 import (
-	"bufio"
 	"log"
-	"os"
 	"strings"
 )
 
@@ -33,8 +31,7 @@ const drawPoint = 3
 
 // X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win
 func rockPaperScissors2() {
-	file, _ := os.Open("resources/aoc_02.txt")
-	scanner := bufio.NewScanner(file)
+	scanner := scanner("resources/aoc_02.txt")
 	score := 0
 	for scanner.Scan() {
 		text := scanner.Text()
@@ -56,8 +53,7 @@ func rockPaperScissors2() {
 }
 
 func rockPaperScissors1() {
-	file, _ := os.Open("resources/aoc_02.txt")
-	scanner := bufio.NewScanner(file)
+	scanner := scanner("resources/aoc_02.txt")
 	score := 0
 	for scanner.Scan() {
 		text := scanner.Text()
