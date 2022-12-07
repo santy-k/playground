@@ -2,13 +2,13 @@ package main
 
 import (
 	"log"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 type interval struct {
 	start int
-	end int
+	end   int
 }
 
 func overLappingdWork() {
@@ -38,7 +38,7 @@ func embeddedWork() {
 		interval1 := createInterval(rangesStr[0])
 		interval2 := createInterval(rangesStr[1])
 
-		if interval1.end - interval1.start < interval2.end - interval2.start { // interval1 should be bigger
+		if interval1.end-interval1.start < interval2.end-interval2.start { // interval1 should be bigger
 			interval1, interval2 = interval2, interval1
 		}
 

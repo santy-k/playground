@@ -8,5 +8,10 @@ func main() {
 	// elfPackage()
 	// elfGroup()
 	// embeddedWork()
-	overLappingdWork()
+	// overLappingdWork()
+	// startOfPacket(14)
+	// crateTop()
+	// crateNewTop()
+	totalSizeOfSmallDirs()
+	smallestDirToDelete()
 }
