@@ -12,6 +12,8 @@ func main() {
 	// startOfPacket(14)
 	// crateTop()
 	// crateNewTop()
-	totalSizeOfSmallDirs()
-	smallestDirToDelete()
+	// totalSizeOfSmallDirs()
+	// smallestDirToDelete()
+	treeHouseCount()
+	treeScenicScore()
 }
